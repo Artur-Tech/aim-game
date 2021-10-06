@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Aim Training | Project 5</title>
+</head>
+<body>
+<div class="screen">
+    <h1>Aim Training</h1>
+    <!--      кнопка ниже-->
+    <a href="#" class="start" id="start">start the Game</a>
+    <!--    с помощью class добавляем стилистику, а с id добавляем данные-->
+</div>
+
+<div class="screen">
+    <!--      экран -->
+    <h1>choose Time</h1>
+    <ul class="time-list" id="time-list">
+        <li>
+            <button class="time-btn" data-time="8">
+                8 sec
+            </button>
+        </li>
+        <li>
+            <button class="time-btn" data-time="16">
+                16 sec
+            </button>
+        </li>
+        <li>
+            <button class="time-btn" data-time="32">
+                32 sec
+            </button>
+        </li>
+        <li>
+            <button class="time-btn" data-time="64">
+                64 sec
+            </button>
+        </li>
+    </ul>
+</div>
+
+<div class="screen">
+    <h3>left <span id="time">00:00</span></h3>
+    <div class="board" id="board"></div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
+
